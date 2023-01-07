@@ -1,0 +1,348 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --hover-text-color: #2196f3;
+  --logo: #000000;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.font-family {
+  font-family: "Roboto", sans-serif;
+  color: var(--title-text-color);
+  background-color: #ffffff;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+/* навигация */
+.header {
+}
+.logo {
+  color: var(--hover-text-color);
+
+  font-family: "raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo {
+  color: var(--hover-text-color);
+}
+.logo span {
+  color: var(--logo);
+}
+.logo .span {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.site-nav .link-a {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.site-nav .link-a:hover,
+.site-nav .link-a:focus {
+  color: var(--hover-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.site-nav .link-b {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.site-nav .link-b:hover,
+.site-nav .link-b:focus {
+  color: var(--hover-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.site-nav .link-c {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.site-nav .link-c:hover,
+.site-nav .link-c:focus {
+  color: var(--hover-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+/* авторизация */
+
+.auth-nav .link-d {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.auth-nav .link-d:hover,
+.auth-nav .link-d:focus {
+  color: var(--hover-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.auth-nav .link-e {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.auth-nav .link-e:hover,
+.auth-nav .link-e:focus {
+  color: var(--hover-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* первая секция */
+
+.page-titel {
+  color: var(--logo);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.page-button {
+  border: none;
+  display: inline-block;
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
+}
+
+.page-button:hover {
+  color: #ffffff;
+  background-color: var(--hover-text-color);
+}
+
+/* Особенности */
+
+.features .main-title {
+  opacity: 0;
+}
+
+.features .header {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.features .description {
+    color: var(--title-text-color);
+    font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+}
+
+/* Чим ми займаємося*/
+.work-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+/* Наша команда */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/* Ігор Дем'яненко */
+
+.product-designer .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+.product-designer .job {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+/* Ольга Рєпіна */
+
+.frontend-developer .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.frontend-developer .job {
+  font-size: 16px;
+  line-height: 1.18px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+/* Микола Тарасов */
+
+.marketing .name {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.marketing .job {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+/* Михайло Єрмаков */
+
+.ui-designer .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+.ui-designer .job {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+/* footer */
+
+.footer .logo-footer {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer {
+  color: var(--hover-text-color);
+}
+
+.logo-footer span {
+  color: var(--logo);
+}
+
+.map {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+.footer .mail {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+.footer .tel {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+button {
+  font-family: inherit;
+}
+/* Портфолио */
+
+/* фильтр */
+
+.filtr .filtr-button {
+  border: none;
+  color: var(--primary-text-color);
+
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.filtr .filtr-button:hover {
+  color: #ffffff;
+
+  cursor: pointer;
+  background: var(--hover-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+/* основная страница */
+
+.head {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--primary-text-color);
+}
+
+.view {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
