@@ -2,13 +2,9 @@
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --hover-text-color: #2196f3;
-  --logo: #000000;
+  --logo: #000000;  
 }
 
-* {
-  outline: 2px solid tomato;
-  background-color: aqua;
-}
 
 h1,
 h2,
